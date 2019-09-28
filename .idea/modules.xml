@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chenwp/chenwp.iml" filepath="$PROJECT_DIR$/chenwp/chenwp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ichenmavenquickstart/ichenmavenquickstart.iml" filepath="$PROJECT_DIR$/ichenmavenquickstart/ichenmavenquickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ichenwebapp/ichenwebapp.iml" filepath="$PROJECT_DIR$/ichenwebapp/ichenwebapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
+    </modules>
+  </component>
+</project>

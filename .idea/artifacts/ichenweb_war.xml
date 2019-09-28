@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ichenweb:war">
+    <output-path>$PROJECT_DIR$/ichenweb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ichenweb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ichenweb.war">
+      <element id="artifact" artifact-name="ichenweb:war exploded" />
+    </root>
+  </artifact>
+</component>
