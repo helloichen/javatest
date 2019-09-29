@@ -3,6 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8"/>
+	<title>永和门店系统</title>
 </head>
 	<!-- 
 	frameset标签必须要放在head和body之间

@@ -1,10 +1,12 @@
 package com.ichen.controller;
 
+import java.lang.reflect.Method;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.ichen.dao.DoorMapper;
@@ -48,7 +50,7 @@ public class OrderController {
 		dao.deleteOrder(id);
 		return "redirect:orderList";
 	}
-	
+
 	//根据id查询订单信息
 	@RequestMapping("orderInfo")
 	public String orderInfo(Integer id,Model model){
@@ -63,7 +65,7 @@ public class OrderController {
 		//将model及其中的数据带到jsp进行回显
 		return "order_update";
 	}
-	
+
 	//根据id修改订单信息
 	@RequestMapping("orderUpdate")
 	public String orderUpdate(Order order){
