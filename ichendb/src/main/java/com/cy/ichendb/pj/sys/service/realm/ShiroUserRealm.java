@@ -46,7 +46,7 @@ public class ShiroUserRealm extends AuthorizingRealm {
 
 	/**
 	 * 通过此方法完成认证数据的后去及封装,系统底层会将认证数据传递认证管理器,由认证管理器完成认证操作
-	 * @param token封装用户名和密码
+	 * @param token 封装用户名和密码
 	 */
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
