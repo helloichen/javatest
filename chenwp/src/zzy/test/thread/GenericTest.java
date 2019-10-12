@@ -8,21 +8,24 @@ public class GenericTest {
         ArrayList list=new ArrayList<>();
         list.add(2);
         ArrayList<String> sList=list;
+        for (String s:sList) {
+            System.out.println(s);
+
+        }
         System.out.println(sList.getClass());
 
         Person person=new Student();
         Student s=(Student) person;
 
-//        TestA testA=(TestA) person;
+
 
         Student s1=new Student();
 
-//        Man man=(Man) s1;
+//        Teacher teacher=(Teacher) s1;
 
     }
 
 }
 class Person{}
 class Student extends Person{}
-class Man extends Person{}
-class TestA{}
+class Teacher extends Person{}
