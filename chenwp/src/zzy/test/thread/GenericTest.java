@@ -10,7 +10,6 @@ public class GenericTest {
         ArrayList<String> sList=list;
         for (String s:sList) {
             System.out.println(s);
-
         }
         System.out.println(sList.getClass());
 
